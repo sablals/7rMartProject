@@ -1,0 +1,14 @@
+testscript\ProductTest.class
+generateReport\Listeners.class
+testscript\SubcategorySearchTest.class
+reTry\Retry.class
+testscript\ManageTest.class
+testscript\BaseClass.class
+testscript\LoginTest.class
+testscript\SubCategoryAddTest.class
+testscript\ManageCategoryAddTest.class
+testscript\ManagenewsTest.class
+testscript\AdminTest.class
+testscript\ManagePageAddTest.class
+testscript\ManageCategorySearchTest.class
+testscript\AdsearchTest.class

@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 6, Errors: 0, Skipped: 8, Time elapsed: 0.73 s <<< FAILURE! - in TestSuite
+testscript.AdminTest.intializeBrowser  Time elapsed: 0.54 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method intializeBrowser but has not been marked @Optional or defined
+in C:\Users\Sablals\eclipse-workspace\7rMart_Project\testNG.xml
+
+testscript.LoginTest.intializeBrowser  Time elapsed: 0.011 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method intializeBrowser but has not been marked @Optional or defined
+in C:\Users\Sablals\eclipse-workspace\7rMart_Project\testNG.xml
+
+testscript.LoginTest.intializeBrowser  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method intializeBrowser but has not been marked @Optional or defined
+in C:\Users\Sablals\eclipse-workspace\7rMart_Project\testNG.xml
+
+testscript.LoginTest.verifyTheUserAbleToLoginInValidCredentials  Time elapsed: 0.003 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'username' is required by @Test on method verifyTheUserAbleToLoginInValidCredentials but has not been marked @Optional or defined
+in C:\Users\Sablals\eclipse-workspace\7rMart_Project\testNG.xml
+
+testscript.LoginTest.verifyTheUserAbleToLoginValidCredentials  Time elapsed: 0.003 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by @Test on method verifyTheUserAbleToLoginValidCredentials but has not been marked @Optional or defined
+in C:\Users\Sablals\eclipse-workspace\7rMart_Project\testNG.xml
+
+testscript.LoginTest.intializeBrowser  Time elapsed: 0.004 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method intializeBrowser but has not been marked @Optional or defined
+in C:\Users\Sablals\eclipse-workspace\7rMart_Project\testNG.xml
+

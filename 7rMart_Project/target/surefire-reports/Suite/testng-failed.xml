@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Testng.xml(failed)" verbose="0">
+    <classes>
+      <class name="testscript.LoginTest">
+        <methods>
+          <include name="verifyTheUserAbleToLoginInValidCredentials"/>
+          <include name="browserQuit"/>
+          <include name="verifyTheUserAbleToLoginValidCredentials"/>
+          <include name="verifyValidUsernameAndInvalidPassword"/>
+          <include name="intializeBrowser"/>
+          <include name="verifyInvalidUsernameAndValidPassword"/>
+        </methods>
+      </class> <!-- testscript.LoginTest -->
+      <class name="testscript.AdminTest">
+        <methods>
+          <include name="browserQuit"/>
+          <include name="adminPage"/>
+          <include name="intializeBrowser"/>
+        </methods>
+      </class> <!-- testscript.AdminTest -->
+    </classes>
+  </test> <!-- Testng.xml(failed) -->
+</suite> <!-- Failed suite [Suite] -->
